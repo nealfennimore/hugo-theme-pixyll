@@ -284,6 +284,15 @@ h6,
     top: 0.1em;
 }
 
+.site-header .site-title,
+.site-header .site-title picture {
+  display: block;
+}
+
+.site-header .site-title picture {
+  max-width: 125px;
+}
+
 @media screen and (min-width: 48em) {
   .site-header .site-title {
     float: left;
